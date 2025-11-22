@@ -50,7 +50,6 @@ Optimal environmental risk scoring using:
 |**Mode**           | **LLM Used**                 |  **Purpose**                          |
 |-----------------|-------------------------------|--------------------------------------|
 |**Offline Mode** |     LocalStubLLM              |     Fast testing, CI, no API needed  |
-|-----------------|-------------------------------|--------------------------------------|
 |**Live Mode**    |     Gemini Flash / Flash Lite |     Final evaluation and deployment  |
 
 ### ✔️ Synthetic Scenario Test Harness
@@ -164,7 +163,7 @@ CI Features:
 
 Synthetic test cases demonstrate clear improvement when environmental metadata is included.
 
-| **Case** |      | **Baseline Score** |   | **Env Score** |   | **Result**                 |
+| **Case**        | **Baseline Score** |    **Env Score**  |     **Result**                 |
 |---------------|--------------------|-------------------|--------------------------------|
 | clean_air	    |      low	         |         low	     |         same severity          |
 | moderate_pm	  |      low	         |         higher	   |         better sensitivity     |
