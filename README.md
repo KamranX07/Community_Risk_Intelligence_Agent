@@ -47,11 +47,11 @@ Optimal environmental risk scoring using:
 - Humidity / wind threat modeling
 
 ### ✔️ Two Execution Modes
-**Mode**            **LLM Used**                    **Purpose**
----
-**Offline Mode**      LocalStubLLM                    Fast testing, CI, no API needed
----
-**Live Mode**         Gemini Flash / Flash Lite       Final evaluation and deployment
+|**Mode**           | **LLM Used**                 |  **Purpose**                          |
+|-----------------|-------------------------------|--------------------------------------|
+|**Offline Mode** |     LocalStubLLM              |     Fast testing, CI, no API needed  |
+|-----------------|-------------------------------|--------------------------------------|
+|**Live Mode**    |     Gemini Flash / Flash Lite |     Final evaluation and deployment  |
 
 ### ✔️ Synthetic Scenario Test Harness
 Evaluates impact of environmental data using structured synthetic events.
@@ -164,14 +164,14 @@ CI Features:
 
 Synthetic test cases demonstrate clear improvement when environmental metadata is included.
 
-**Case**	   **Baseline Score**	 **Env Score**	       **Result**
----
-clean_air	        low	                 low	             same severity
-moderate_pm	        low	                 higher	             better sensitivity
-high_pm	            low	                 medium	             correctly upgraded
-extreme_heat	    low	                 higher	             reasonable increase
-high_humidity	    low	                 higher	             medium sensitivity
-windy	            low	                 higher	             more realistic ranking
+| **Case** |      | **Baseline Score** |   | **Env Score** |   | **Result**                 |
+|---------------|--------------------|-------------------|--------------------------------|
+| clean_air	    |      low	         |         low	     |         same severity          |
+| moderate_pm	  |      low	         |         higher	   |         better sensitivity     |
+| high_pm	      |      low	         |         medium	   |         correctly upgraded     |
+| extreme_heat	|      low	         |         higher	   |         reasonable increase    |
+| high_humidity |	     low	         |         higher	   |         medium sensitivity     |
+| windy	        |      low	         |         higher	   |         more realistic ranking |
 
 JSONL output saved to:
 ```
