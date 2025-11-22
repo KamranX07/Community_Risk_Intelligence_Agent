@@ -50,7 +50,6 @@ Optimal environmental risk scoring using:
 |**Mode**           | **LLM Used**                 |  **Purpose**                          |
 |-----------------|-------------------------------|--------------------------------------|
 |**Offline Mode** |     LocalStubLLM              |     Fast testing, CI, no API needed  |
-|-----------------|-------------------------------|--------------------------------------|
 |**Live Mode**    |     Gemini Flash / Flash Lite |     Final evaluation and deployment  |
 
 ### ✔️ Synthetic Scenario Test Harness
