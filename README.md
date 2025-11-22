@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="A_2D_digital_graphic_design_banner_showcases_the_C.png" width="85%" />
-</p>
-
 # 🚨 Community Risk Intelligence Agent  
 ### *AI-driven, event-aware community alerting system built with Google Gemini + ADK (Capstone Project)*
 
