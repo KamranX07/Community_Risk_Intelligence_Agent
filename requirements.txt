@@ -1,0 +1,5 @@
+pytest
+nbformat
+nbclient
+matplotlib
+kaggle_secrets
