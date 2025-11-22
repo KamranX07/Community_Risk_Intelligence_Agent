@@ -2,5 +2,4 @@ pytest
 nbformat
 matplotlib
 nbclient
-kaggle_secrets
 google-genai
